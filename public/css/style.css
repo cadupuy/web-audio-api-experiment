@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #111;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  position: absolute;
+  border-radius: 50%;
+  border: none;
+  background: red;
+  width: 30px;
+  height: 30px;
+  top: 30px;
+  left: 30px;
+  cursor: pointer;
+}
+
+button:active {
+  background: white;
+}
